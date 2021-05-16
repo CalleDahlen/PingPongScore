@@ -1,0 +1,50 @@
+body{
+    background-color: #b9b5c9;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+button{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+img{
+    border-radius: 25%;
+}
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scoreDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#reset{
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#player1Score{
+    position: relative;
+}
+
+button{
+    background: none;
+    color: #f1ff5c;
+    border: 2px solid;
+    padding: 1em 1em;
+    font-size: 1em;
+    transition: all 0.25s;
+    border-radius: 25%;
+}
+
+button:hover{
+    border-color:#ffa260; 
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
